@@ -1,8 +1,10 @@
 # voice_analysis in Python
 This is a introduction to voice analysis in Python libraries, "pywirld" and "pyreaper".
+
 My development environment is macOS Mojave, version 10.14.2, Python3.7.1 and use pyenv.
 
 **warning!**
+
 Anaconda is not matched for pyworld.
 Use .pyenv/shims/python3 or usr/bin/env python3.
 
