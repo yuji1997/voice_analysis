@@ -32,6 +32,7 @@ Linux:
 Save the files with extension .wav you want to analysis.
 
 **warning!**
+
 Files with extension .wav must be monoral, not stereo.
 If you need to convert, "ffmpeg" is a good tool.
 
