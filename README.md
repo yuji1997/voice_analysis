@@ -1,4 +1,4 @@
-# voicea nalysis in Python
+# voicea analysis in Python
 This is a introduction to voice analysis in Python libraries, "pyworld" and "pyreaper".
 
 My development environment is macOS Mojave, version 10.14.2, Python3.7.1 and use pyenv.
