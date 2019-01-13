@@ -1,11 +1,11 @@
-# voice_analysis in Python
-This is a introduction to voice analysis in Python libraries, "pywirld" and "pyreaper".
+# voicea nalysis in Python
+This is a introduction to voice analysis in Python libraries, "pyworld" and "pyreaper".
 
 My development environment is macOS Mojave, version 10.14.2, Python3.7.1 and use pyenv.
 
 **warning!**
 
-Anaconda is not matched for pyworld.
+Pyworld does not work well in Anaconda.
 Use .pyenv/shims/python3 or usr/bin/env python3.
 
 ## Download
@@ -21,13 +21,23 @@ Linux:
 
 `wget https://github.com/yuji1997/voice_analysis`
 
-## directory
+## Directory
 ```shell
 .
 ├── data
 │   └── sample.wav
 └── src
     └── voice_analysis.ipynb
+```
+Save the files with extension .wav you want to analysis.
+
+**warning!**
+Files with extension .wav must be monoral, not stereo.
+If you need to convert, "ffmpeg" is a good tool.
+
+```shell
+$ brew install ffmpeg
+$ ffmpeg -i filename.wav -ac 1 filename.wav
 ```
 
 ## Install pyworld
